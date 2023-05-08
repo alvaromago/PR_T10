@@ -14,6 +14,7 @@ public class DibujarTexto extends Frame implements WindowListener
 	{
 		addWindowListener(this);
 		setSize(200, 100);
+		setLocationRelativeTo(null);
 		setVisible(true); // --> repaint()--> update()--> paint()
 	}
 
